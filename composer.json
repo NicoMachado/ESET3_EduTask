@@ -1,0 +1,14 @@
+{
+    "name": "inet/olimpiada.2023.necochea",
+    "autoload": {
+        "psr-4": {
+            "Inet\\Olimpiada2023Necochea\\": "src/"
+        },
+        "classmap":["src/"] 
+
+    },
+    
+    "require": {
+        "php-mqtt/client": "^1.8"
+    }
+}
