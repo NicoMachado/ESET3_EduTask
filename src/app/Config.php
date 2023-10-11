@@ -14,7 +14,8 @@ const APP_NAME = 'hospital-v1.0.0.0';
 //datos de conexion a base de Datos MYSQL
 const DBM_MYSQL = 'mysql'; //'mysql'
 const DBM_NAME = 'inet';
-const DBM_HOST = '192.168.0.251';
+//const DBM_HOST = '192.168.0.251';
+const DBM_HOST = 'localhost';
 const DBM_USER = 'usuario';
 const DBM_PASSWORD = '123456';
 const DBM_CHARSET = 'charset-utf8';
