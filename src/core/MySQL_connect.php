@@ -40,7 +40,7 @@ class MySQL_connect
         }
 
         $response = array();
-        $sql = "SELECT * FROM $table WHERE id_Persona = $id";
+        $sql = "SELECT * FROM $table WHERE id = $id";
         $result = mysqli_query($this->conn, $sql);
         if (mysqli_num_rows($result) > 0) {
             // output data of each row

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olimpiada2023Necochea</title>
+    <title>Edu Task</title>
     <!-- <link rel="stylesheet" href="assets/css/estiloGeneral.css?v=<?= time() ?>">
     <link rel="stylesheet" href="assets/css/all.min.css"> -->
 

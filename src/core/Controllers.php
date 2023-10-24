@@ -9,7 +9,7 @@ class Controllers
 
   function __construct()
   {
-    session_name('hospital');
+    session_name('edutask');
     session_set_cookie_params(0);
     session_cache_expire(0);
     session_start();

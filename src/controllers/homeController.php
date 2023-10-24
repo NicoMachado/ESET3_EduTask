@@ -24,7 +24,7 @@ class Home extends Controllers
     {
 
         // $model = $this->mysql->selectData('Persona', 6);
-        $model = $this->mysql->selectAllData('Persona');
+        $model = $this->mysql->selectAllData('Tema');
 
         // if (!isset($model['error'])) {
         //     $persona = new Persona();
@@ -52,7 +52,7 @@ class Home extends Controllers
 
         switch ($http_method) {
             case "GET":
-                $model = $this->mysql->selectData('Persona', 6);
+                $model = $this->mysql->selectData('Tema', 6);
 
                 $model['http-method'] = $http_method;
 
