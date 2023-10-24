@@ -9,15 +9,15 @@ define("VIEWS_PATH", "src/views/");
 define("CONTROLLERS_PATH", "src/controllers/");
 define("HELPERS_PATH", "src/helpers/");
 define("ASSETS_PATH", "assets/");
-const APP_NAME = 'hospital-v1.0.0.0';
+const APP_NAME = 'tecno-task-v1.0.0.0';
 
 //datos de conexion a base de Datos MYSQL
 const DBM_MYSQL = 'mysql'; //'mysql'
-const DBM_NAME = 'inet';
+const DBM_NAME = 'esetn3_tasks_db';
 //const DBM_HOST = '192.168.0.251';
 const DBM_HOST = 'localhost';
-const DBM_USER = 'usuario_db';
-const DBM_PASSWORD = '123456';
+const DBM_USER = 'tecn3_dbuser';
+const DBM_PASSWORD = 'tecn3';
 const DBM_CHARSET = 'charset-utf8';
 
 

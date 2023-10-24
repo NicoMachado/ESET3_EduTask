@@ -66,7 +66,8 @@ class MySQL_connect
         $response = array();
         $sql = "SELECT * FROM $table";
         $result = mysqli_query($this->conn, $sql);
-        if (mysqli_num_rows($result) > 0) {
+        //if $result is false, there was an error
+        if ($result !== false && mysqli_num_rows($result) > 0) {
             // output data of each row
             while ($row = mysqli_fetch_assoc($result)) {
                 $response[] = $row;

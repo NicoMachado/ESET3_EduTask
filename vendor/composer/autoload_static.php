@@ -25,7 +25,7 @@ class ComposerStaticInit1f5b3f9db721b5596756b45cecc962f6
     public static $prefixDirsPsr4 = array (
         'Psr\\Log\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/log/src',
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
         'PhpMqtt\\Client\\' => 
         array (

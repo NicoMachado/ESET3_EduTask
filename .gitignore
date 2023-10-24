@@ -1,2 +1,3 @@
 /entorno/
 composer.lock
+vendor/psr/log/Psr/

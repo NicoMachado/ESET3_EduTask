@@ -1,5 +1,5 @@
 {
-    "name": "inet/olimpiada.2023.necochea",
+    "name": "esetn3/tecno-task",
     "autoload": {
         "psr-4": {
             "Inet\\Olimpiada2023Necochea\\": "src/"
