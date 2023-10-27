@@ -49,14 +49,16 @@ class Home extends Controllers
 
         $http_method = $_SERVER['REQUEST_METHOD'];
 
-
         switch ($http_method) {
             case "GET":
-                $model = $this->mysql->selectData('Tema', 6);
+                
+                $model = $this->mysql->selectAllData('Tema');
+                $response['data'] = $model;
+                $response['http-method'] = $http_method;
 
-                $model['http-method'] = $http_method;
+                //$model['http-method'] = $http_method;
 
-                $this->responseJSON($model);
+                $this->responseJSON($response);
                 break;
             case "POST":
         }
