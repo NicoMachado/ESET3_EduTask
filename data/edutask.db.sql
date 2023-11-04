@@ -32,19 +32,24 @@ INSERT INTO `profesor` (`id`, `apeynom`, `activo`) VALUES
 /*!40000 ALTER TABLE `profesor` ENABLE KEYS */;
 
 -- Volcando estructura para tabla esetn3_tasks_db.tarea
-CREATE TABLE IF NOT EXISTS `tarea` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `titulo` char(50) COLLATE latin1_spanish_ci NOT NULL DEFAULT '',
-  `detalle` varchar(1024) COLLATE latin1_spanish_ci NOT NULL DEFAULT '',
-  `fechaEntrega` date DEFAULT NULL,
-  `tema_id` int(11) DEFAULT '0',
-  `profesor_id` int(11) NOT NULL DEFAULT '0',
-  `fechaUltimoCambio` date NOT NULL DEFAULT '0000-00-00',
-  `usuario_id` int(11) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`profesor_id`),
-  KEY `id` (`id`),
-  CONSTRAINT `FK_tarea_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
+CREATE TABLE `tareaS` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`titulo` CHAR(50) NOT NULL DEFAULT '' COLLATE 'latin1_spanish_ci',
+	`detalle` VARCHAR(1024) NOT NULL DEFAULT '' COLLATE 'latin1_spanish_ci',
+	`fechaEntrega` DATE NULL DEFAULT NULL,
+	`tema_id` INT(11) NULL DEFAULT '0',
+	`profesor_id` INT(11) NOT NULL DEFAULT '0',
+	`fechaUltimoCambio` DATE NOT NULL,
+	`usuario_id` INT(11) NOT NULL DEFAULT '0',
+	PRIMARY KEY (`id`),
+	INDEX `id` (`id`),
+	INDEX `profesor_id` (`profesor_id`),
+	CONSTRAINT `FK_tarea_profesor` FOREIGN KEY (`profesor_id`) REFERENCES `profesor` (`id`)
+)
+COLLATE='latin1_spanish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=2
+;
 
 -- Volcando datos para la tabla esetn3_tasks_db.tarea: ~0 rows (aproximadamente)
 DELETE FROM `tarea`;
