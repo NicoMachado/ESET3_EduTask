@@ -32,7 +32,7 @@ INSERT INTO `profesor` (`id`, `apeynom`, `activo`) VALUES
 /*!40000 ALTER TABLE `profesor` ENABLE KEYS */;
 
 -- Volcando estructura para tabla esetn3_tasks_db.tarea
-CREATE TABLE `tareaS` (
+CREATE TABLE `tarea` (
 	`id` INT(11) NOT NULL AUTO_INCREMENT,
 	`titulo` CHAR(50) NOT NULL DEFAULT '' COLLATE 'latin1_spanish_ci',
 	`detalle` VARCHAR(1024) NOT NULL DEFAULT '' COLLATE 'latin1_spanish_ci',
