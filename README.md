@@ -1,1 +1,8 @@
-# olimpiadas-2023
+# Trabajo Final
+
+Aplicacion de Lista de Tareas Educativas
+
+Equipos
+  Fronte End
+  Backend
+  Model ( BBDD )
