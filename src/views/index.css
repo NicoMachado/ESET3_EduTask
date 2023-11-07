@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+}
+
+.logo{
+    width: 60px;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav_ul{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.nav_li{
+    list-style: none;
+    margin: 10px;
+}
+
+.nav_li > a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav_button{
+    border-radius: 25px;
+    border: none;
+    width: 160px;
+    height: 50px;
+    background-image: linear-gradient(0.25turn,#CDFFD8, #94B9FF);
+    cursor: pointer;
+}
+
+.contain_slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slogan{
+    font-size: 4.6em;
+    font-weight: 900;
+}
+
+.contain_semi_slogan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan_content{
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10px;
+    max-width: 450px;
+}
+
+.slogan_button{
+    margin-top: 30px;
+    border-radius: 25px;
+    border: none;
+    width: 170px;
+    height: 35px;
+    font-size: 1.1em;
+    background-image: linear-gradient(0.25turn,#CDFFD8, #94B9FF);
+    cursor: pointer;
+}
+
+.aside{
+    width: 80%;
+    background-color: linear-gradient(0.25turn,#CDFFD8, #94B9FF);
+}
