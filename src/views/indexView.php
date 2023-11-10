@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<<<<<<< HEAD
-<body>owfb3oif23ifh
-    
-=======
 <body>
     <header class="header">
         <a href="#"><img class="logo" src="img/cheque.png" alt="logo"></a>
@@ -35,6 +31,5 @@
     <aside class="aside">
         
     </aside>
->>>>>>> 198995cad02a6ae05b7f3910cc58bb6ef90d6b42
 </body>
 </html>
