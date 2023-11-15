@@ -22,9 +22,8 @@ class Home extends Controllers
 
     public function index()
     {
-
         // $model = $this->mysql->selectData('Persona', 6);
-        $model = $this->mysql->selectAllData('Tema');
+        //$model = $this->mysql->selectAllData('Tema');
 
         // if (!isset($model['error'])) {
         //     $persona = new Persona();

@@ -49,7 +49,7 @@
         <div>
             <i class="fa-solid fa-face-sad-tear fa-10x text-primary"></i>
         </div>
-        <h1>Error 404</h1>
+        <h1>Error 404</h1>holaddd
         <p>¡Oops! Parece que la página que estás buscando no se encuentra.</p>
         <p>Por favor, verifica la dirección URL o regresa a <a href="/">la página de inicio</a>.</p>
     </div>

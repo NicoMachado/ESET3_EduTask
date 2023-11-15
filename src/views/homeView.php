@@ -15,12 +15,12 @@
         <h1>HOME VIEW</h1>
     </header>
     <main>
-        <?= $this->getName() ?>
-
+     <!-- <?= $this->getName() ?>
+-->
 
     </main>
     <footer>
-        <?php var_dump($model) ?>
+        <?php //var_dump($model) ?>
     </footer>
 
 </body>
