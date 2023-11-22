@@ -6,7 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'Psr\\Log\\' => array($vendorDir . '/psr/log/src'),
     'PhpMqtt\\Client\\' => array($vendorDir . '/php-mqtt/client/src'),
     'MyCLabs\\Enum\\' => array($vendorDir . '/myclabs/php-enum/src'),
     'Inet\\Olimpiada2023Necochea\\' => array($baseDir . '/src'),
