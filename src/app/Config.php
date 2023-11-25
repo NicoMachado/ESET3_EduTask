@@ -9,7 +9,9 @@ define("VIEWS_PATH", "src/views/");
 define("CONTROLLERS_PATH", "src/controllers/");
 define("HELPERS_PATH", "src/helpers/");
 define("ASSETS_PATH", "assets/");
-const APP_NAME = 'tecno-task-v1.0.0.0';
+define("CSS_PATH", "css/");
+
+const APP_NAME = 'tecno-task-v1.0.0';
 
 //datos de conexion a base de Datos MYSQL
 const DBM_MYSQL = 'mysql'; //'mysql'
