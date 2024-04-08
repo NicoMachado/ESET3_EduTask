@@ -1,7 +1,7 @@
 <?php
 
 //var_dump(dirname(__DIR__));
-define('HOME_URL', "http://localhost/inet/olimpiada.2023.necochea/");
+define('HOME_URL', "http://localhost/tecno-task/");
 define("LOAD_PATH", "src/core/");
 define("SYS_PATH", "src/core/lib/");
 define("MODELS_PATH", "src/models/");
@@ -15,11 +15,11 @@ const APP_NAME = 'tecno-task-v1.0.0';
 
 //datos de conexion a base de Datos MYSQL
 const DBM_MYSQL = 'mysql'; //'mysql'
-const DBM_NAME = 'esetn3_tasks_db';
+const DBM_NAME = 'tecn3_db';
 //const DBM_HOST = '192.168.0.251';
-const DBM_HOST = 'localhost';
-const DBM_USER = 'tecn3_dbuser';
-const DBM_PASSWORD = 'tecn3';
+const DBM_HOST = 'localhost:8306';
+const DBM_USER = 'tecn3_admin';
+const DBM_PASSWORD = '';
 const DBM_CHARSET = 'charset-utf8';
 
 

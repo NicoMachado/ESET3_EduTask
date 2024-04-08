@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="shortcut icon" href="img/cheque.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icons8-task-64.png" type="image/x-icon">
     <title>Edu Task</title>
 </head>
 <body>
     <header class="header">
-        <a href="#"><img class="logo" src="img/cheque.png" alt="logo"></a>
+        <a href="#"><img class="logo" src="img/icons8-task-64.png" alt="logo"></a>
         <nav class="nav">
             <ul class="nav_ul">
                 <li class="nav_li"><a href="#">Contacto</a></li>

@@ -35,7 +35,7 @@ class Home extends Controllers
         //     $persona->setEmail($model['Email']);
         //     $persona->FechaNacimiento = $model['FechaNacimiento'];
 
-        require_once(VIEWS_PATH . "indexView.php");
+        require_once(VIEWS_PATH . "homeView.php");
     }
 
     public function api()
